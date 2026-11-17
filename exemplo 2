@@ -1,0 +1,35 @@
+#include <stdio.h>
+
+
+
+// Criar duas funções, uma para Área e outra para Perímetro
+double calcularArea(double a, double b) {
+    //double Area = a * b;
+    return a * b;
+}
+
+double calcularPerimetro(double a, double b) {
+    double Soma = a + b;
+    return Soma * 2.0;
+}
+
+int main(){
+
+    double AreaR1 = calcularArea(10.0, 30.0);
+    double PerimetroR1 = calcularPerimetro(10.0, 30.0);
+
+    printf("A Área do R1 é: %.2f\n", AreaR1);
+    printf("O Perímetrodo R1 é: %.2f\n", PerimetroR1);
+
+
+
+     double AreaR2 = calcularArea(10.0, 25.0);
+    double PerimetroR2 = calcularPerimetro(10.0, 25.0);
+
+    printf("A Área do R1 é: %.2f\n", AreaR1);
+    printf("O Perímetrodo R1 é: %.2f\n", PerimetroR1);
+
+    return 0; // ou o final visível da função
+
+
+}

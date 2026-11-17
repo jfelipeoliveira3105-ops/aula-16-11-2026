@@ -1,0 +1,22 @@
+ #include <stdio.h>
+ 
+ int main(){
+
+  float ar1 = 30;  
+   float br1 = 10;
+   
+   float ar2 = 25;
+   float br2 = 10;
+  
+  // Transformar em 2 funções.
+  float arear1 = ar1 * br1;
+  float perimetror1 = (ar1 + br1) * 2;
+  
+  float arear2 = ar2 * br2;
+  float perimetror2 = (ar2 + br2) * 2;
+  
+  printf("Área de um Retângulo (R1) : %.2f\n ", arear1);
+  printf("Perímetro de um Retângulo (R1): %.2f\n ", perimetror1);
+
+}
+
